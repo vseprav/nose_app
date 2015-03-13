@@ -1,0 +1,7 @@
+:ruby_version: 'ruby-2.1.2'
+
+:python:
+  python_version: 2.7
+
+:tests:
+  - nosetests
