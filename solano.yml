@@ -1,7 +1,15 @@
+hooks:
+  post_worker: "cp $HOME/nosetests.json $HOME/results/$TDDIUM_SESSION_ID/session/"
+
 :ruby_version: 'ruby-2.1.2'
 
 :python:
   python_version: 2.7
+  pip_requirements_file: requirements.txt
 
 :tests:
-  - nosetests
+- type: nosetests
+  mode: basic
+  output: exit-status
+  files:
+    - "test/*_test.py"
