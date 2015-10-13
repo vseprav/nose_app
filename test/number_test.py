@@ -1,5 +1,5 @@
 def one_test():
-  assert 1
+  assert 
 
 def two_test():
   assert 2
