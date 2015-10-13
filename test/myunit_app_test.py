@@ -5,7 +5,7 @@ class MyUnitTest(unittest.TestCase):
 
   def testInit(self):
     app = myunit.app.App(100)
-    self.assertEquals(app.var, 100)
+    self.assertEquals(app.var, 101)
 
   def testGetVar(self):
     app = myunit.app.App(200)
