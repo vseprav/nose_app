@@ -5,4 +5,7 @@
   pip_requirements_file: requirements.txt
 :tests:
 - type: nosetests
+coverage:
+  version: 2
+  enabled: true
   
