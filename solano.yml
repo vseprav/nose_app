@@ -8,4 +8,9 @@
 coverage:
   version: 2
   enabled: true
+hooks:
+  setup_hooks: sleep 15
+  worker_hooks: sleep 15
+  setup_post_hooks: sleep 15
+  
   
