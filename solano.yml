@@ -19,3 +19,8 @@ system:
 coverage:
   version: 2
   enabled: true
+hooks: 
+  pre: sleep 10
+  worker: sleep 10
+  post: sleep 10
+  post_build: sleep 10
