@@ -13,6 +13,9 @@ system:
 :tests:
  - type: nosetests
    mode: parallel
+   output: exit-status
+    files:
+      - **/*.py
 coverage:
   version: 2
   enabled: true
