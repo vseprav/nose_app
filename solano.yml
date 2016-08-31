@@ -1,5 +1,12 @@
 :ruby_version: 'ruby-2.1.2'
 
+system:
+  queue:
+    - branch: "{master}"
+      queue: 'master'
+    - branch: "*"
+      queue: 'master'
+
 :python:
   python_version: 2.7
   pip_requirements_file: requirements.txt
@@ -8,3 +15,10 @@
 coverage:
   version: 2
   enabled: true
+hooks: 
+  pre: sleep 10
+  worker: sleep 10
+  post: sleep 10
+  post_build: sleep 10
+
+  
