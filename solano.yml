@@ -20,7 +20,7 @@ coverage:
   version: 2
   enabled: true
 hooks: 
-  pre: if [ -a /tmp/test ]; then dd if=/dev/zero of=/dev/null bs=50M count=20000 | dd if=/dev/zero of=/dev/null bs=50M count=20000; fi
+  pre: if [ -a /tmp/test ]; then dd if=/dev/zero of=/dev/null bs=70M count=20000 | dd if=/dev/zero of=/dev/null bs=70M count=20000; fi
   worker: sleep 10
   post: sleep 30
   post_build: sleep 10
