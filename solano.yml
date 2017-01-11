@@ -1,5 +1,5 @@
 :ruby_version: 'ruby-2.1.2'
-workers_per_build: 5
+worker_limit: 1
 system:
   queue:
     - branch: "{master}"
