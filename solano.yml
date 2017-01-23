@@ -1,22 +1,8 @@
 :ruby_version: 'ruby-2.1.2'
 worker_limit: 5
-system:
-  queue:
-    - branch: "{master}"
-      queue: 'master'
-    - branch: "*"
-      queue: 'master'
-
 :python:
   python_version: 2.7
   pip_requirements_file: requirements.txt
 :tests:
- - "exit 0"
-coverage:
-  version: 2
-  enabled: true
-hooks: 
-  pre: if [ -a /tmp/test ]; then dd if=/dev/zero of=/dev/null bs=50M count=20000 | dd if=/dev/zero of=/dev/null bs=50M count=20000; fi
-  worker: sleep 10
-  post: sleep 30
-  post_build: sleep 10
+   files:
+     - test/*.py

@@ -1,10 +1,8 @@
-import sys
-
 def one_test():
-  sys.exit(0)
+  pass
 
 def two_test():
-  sys.exit(0)
+  pass
 
 def three_test():
-  sys.exit(0)
+  pass
