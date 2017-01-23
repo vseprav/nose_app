@@ -1,11 +1,10 @@
-import time
+import sys
 
 def one_test():
-  assert 1
-  time.sleep(10)
+  sys.exit(0)
 
 def two_test():
-  assert 2
+  sys.exit(0)
 
 def three_test():
-  assert 1+2
+  sys.exit(0)
