@@ -4,4 +4,9 @@ worker_limit: 5
   python_version: 2.7
   pip_requirements_file: requirements.txt
 :tests:
- - "exit 0"
+  - test/number_test.py
+  - "exit 0"
+  - test/number_test2.py
+  - "exit 0"
+  - test/number_test3.py
+
