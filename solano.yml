@@ -8,3 +8,5 @@
    output: exit-status
    files:
      - test/*.py
+  - type: custom
+    command: "exit 0"
