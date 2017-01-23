@@ -1,2 +1,1 @@
-def one_test():
-  assert 1
+pass
