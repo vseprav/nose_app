@@ -1,2 +1,4 @@
 import os
-os.system('exit 0')
+
+def one_test():
+  os.system('exit 0')
