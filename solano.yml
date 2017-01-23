@@ -5,6 +5,5 @@ worker_limit: 5
   pip_requirements_file: requirements.txt
 :tests:
   - "exit 0"
-  - type: nosetests
-    files:
-      - test/*.py
+test_pattern:
+  - test/*.py
