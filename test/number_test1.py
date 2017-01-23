@@ -1,2 +1,1 @@
-def one_test():
-  pass
+pass
