@@ -1,1 +1,22 @@
-pass
+import time
+
+def one_test():
+    print('start test')
+    time.sleep(5)
+    print('5 seconds')
+    time.sleep(5)
+    print('10 seconds')
+    time.sleep(5)
+    print('15 seconds')
+    time.sleep(5)
+    print('20 seconds')
+    time.sleep(5)
+    print('25 seconds')
+    time.sleep(5)
+    print('30 seconds')
+    time.sleep(5)
+    print('35 seconds')
+    time.sleep(5)
+    print('40 seconds')
+    time.sleep(10)
+    print('45 seconds')
