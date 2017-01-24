@@ -3,9 +3,4 @@
   python_version: 2.7
   pip_requirements_file: requirements.txt
 :tests:
- - "exit 0"
- - type: nosetests
-   mode: parallel
-   output: exit-status
-   files:
-     - test/*.py
+ - "exit 1"
