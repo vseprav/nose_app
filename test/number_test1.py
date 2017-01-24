@@ -42,31 +42,3 @@ def test_6():
         print "We're on time %d" % (x)
 
     time.sleep(10)
-
-def test_7():
-    print('start test_7')
-    for x in range(0, 1000):
-        print "We're on time %d" % (x)
-
-    time.sleep(10)
-
-def test_8():
-    print('start test_8')
-    for x in range(0, 1000):
-        print "We're on time %d" % (x)
-
-    time.sleep(10)
-
-def test_9():
-    print('start test_9')
-    for x in range(0, 1000):
-        print "We're on time %d" % (x)
-
-    time.sleep(10)
-
-def test_10():
-    print('start test_10')
-    for x in range(0, 1000):
-        print "We're on time %d" % (x)
-
-    time.sleep(10)
