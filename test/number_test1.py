@@ -1,5 +1,4 @@
 import time
-import range
 
 def one_test():
     print('start test')
