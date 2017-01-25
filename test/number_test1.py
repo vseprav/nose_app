@@ -13,7 +13,7 @@ def test_1():
         print "We're on time %d" % (x)
 
     assert 1
-    time.sleep(10)
+    sys.stdout.flush()
 
 def test_2():
     print('start test_2')
@@ -27,7 +27,7 @@ def test_2():
         print "We're on time %d" % (x)
 
     assert 1
-    time.sleep(10)
+    sys.stdout.flush()
 
 def test_3():
     print('start test_3')
@@ -41,4 +41,4 @@ def test_3():
         print "We're on time %d" % (x)
 
     assert 1
-    time.sleep(10)
+    sys.stdout.flush()
