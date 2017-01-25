@@ -12,7 +12,7 @@ def test_1():
 def test_2():
     time.sleep(10)
     print('start test_2')
-    for x in range(0, 2000):
+    for x in range(0, 20000):
         print("We're on time %d" % (x))
 
     sys.stdout.flush()
@@ -20,14 +20,14 @@ def test_2():
 def test_3():
     time.sleep(10)
     print('start test_3')
-    for x in range(0, 2000):
+    for x in range(0, 20000):
         print("We're on time %d" % (x))
 
     sys.stdout.flush()
 def test_4():
     time.sleep(10)
     print('start test_4')
-    for x in range(0, 2000):
+    for x in range(0, 20000):
         print("We're on time %d" % (x))
 
     sys.stdout.flush()
@@ -35,7 +35,7 @@ def test_4():
 def test_5():
     time.sleep(10)
     print('start test_5')
-    for x in range(0, 2000):
+    for x in range(0, 20000):
         print("We're on time %d" % (x))
 
     sys.stdout.flush()
