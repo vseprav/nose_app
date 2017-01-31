@@ -17,7 +17,11 @@ profiles:
     environment:
       MY_PROFILE: "first"
     :tests:
-    - exit 0
+    - type: nosetests
+      mode: basic
+      output: exit-status
+      files:
+        - "test/*_test.py"
 
   second:
     environment:
