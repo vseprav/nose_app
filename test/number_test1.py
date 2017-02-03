@@ -1,5 +1,7 @@
+import sys
+
 def test_1():
     for x in range(0, 10):
         print "We're on time %d" % (x)
 
-    assert 1
+    sys.exit(0)
